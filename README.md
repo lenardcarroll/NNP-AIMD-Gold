@@ -4,6 +4,6 @@ Using a constant number of particles, volume and temperature ensemble alongside 
 
 $\text{T}_\text{actual}  = \frac{3}{2NK_B}$
 
-$\sum_{i=1}^{N}\text{KE}_i$
+$\sum_{i=1} ^{N}\text{KE}_i$
 
 $\text{Temperture}_\text{Target} = N$
