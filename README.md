@@ -20,7 +20,7 @@ $$\text{T}_\text{Tol} = \sigma\text{T}_\text{target}$$
 
 If the target temperature is 0 (thus a DFT computation), then:
 
-$$v_\text{predict}_i = (0, 0, 0)$$
+$$v_{\text{predict}_i} = (0, 0, 0)$$
 
 
 $\sum_{i=1}^N \text{KE}_i$
