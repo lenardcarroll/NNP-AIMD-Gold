@@ -10,11 +10,11 @@ $$\text{KE}_i = \frac{1}{2}m_iv_i^2$$
 
 An important part of an NVT ensemble is proper thermostatting, not just of the entire system, but individual groups of atoms too. Often times the Nose-Hoover thermostat struggles with thermostatting individual groups of atoms, but does a thorough job with the entire system. As such, in our model, we want to apply a penalty function to ensure not only proper thermostatting of the entire system, but the adsorbates and the metal separately as well. For this, we use the following protocol:
 
-$$\text{T}_\text{actual,adsorbates} = \frac{3}{2{N_a}K_B}\sum_{i=1}^{N_a} \text{KE}_i$$
+$$\text{T}_\text{actual,adsorbates} = \frac{3}{2{N_a}k_B}\sum_{i=1}^{N_a} \text{KE}_i$$
 
-$$\text{T}_\text{actual,metal} = \frac{3}{2{N_m}K_B}\sum_{i=1}^{N_m} \text{KE}_i$$
+$$\text{T}_\text{actual,metal} = \frac{3}{2{N_m}k_B}\sum_{i=1}^{N_m} \text{KE}_i$$
 
-$$\text{T}_\text{actual,system} = \frac{3}{2NK_B}\sum_{i=1}^N \text{KE}_i$$
+$$\text{T}_\text{actual,system} = \frac{3}{2Nk_B}\sum_{i=1}^N \text{KE}_i$$
 
 $$\text{T}_\text{Tol} = \sigma\text{T}_\text{target}$$
 
