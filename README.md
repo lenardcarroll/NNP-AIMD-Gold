@@ -1,3 +1,3 @@
 # NNP-AIMD-Gold
 
-$Temperture_Target = N$
+$\text{Temperture}_\text{Target} = N$
