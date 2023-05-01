@@ -28,10 +28,6 @@ $$[\text{T}_\text{target} - \text{T}_\text{Tol}, \text{T}_\text{target} + \text{
 
 we rescale the velocities of the adsorbates, metal or the entire system using:
 
-$$v_{\text{predict}_i} = \sqrt{\frac{\text{T}_\text{target}+q\text{T}_\text{Tol}}{\text{T}_\text{actual}}}v_\text{actual}$$
+$$v_{\text{predict}_i} = \sqrt{\frac{\text{T}_\text{target}+q\text{T}_\text{Tol}}{\text{T}_\text{actual}}}v_{\text{actual}_i}$$
 
-$\sum_{i=1}^N \text{KE}_i$
-
-$$\left( \sum_{k=1}^n a_k b_k \right)^2$$
-
-$\text{Temperture}_\text{Target} = N$
+If the actual temperature lies within the acceptable range, we accept the velocities and continue. In the set of equations above, $\sigma$ is a coefficient we will choose to decide the amount of tolerance for the thermostatting, and $q$ is a random factor between -1 and +1. 
