@@ -1,4 +1,4 @@
-# NNP-AIMD-Gold
+# Thermostatting Protocol
 
 Using a constant number of particles, volume and temperature ensemble alongside the equipartitition theorem, we can calculate the temperature of the system from the mass of the particle and its velocity using:
 
