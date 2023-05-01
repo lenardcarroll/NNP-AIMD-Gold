@@ -26,6 +26,9 @@ this ensures that the temperature and velocity of the system remains 0. In the e
 
 $$[\text{T}_\text{target} - \text{T}_\text{Tol}, \text{T}_\text{target} + \text{T}_\text{Tol}]$$
 
+we rescale the velocities of the adsorbates, metal or the entire system using:
+
+$$v_{\text{predict}_i} = \sqrt{\frac{\text{T}_\text{target}+q\text{T}_\text{Tol}}{\text{T}_\text{actual}}}v_\text{actual}$$
 
 $\sum_{i=1}^N \text{KE}_i$
 
